@@ -11,6 +11,6 @@ export default function UserProvider({ children }) {
   };
 
   return (
-    <UserContext.provider value={userState}>{children}</UserContext.provider>
+    <UserContext.Provider value={userState}>{children}</UserContext.Provider>
   );
 }
