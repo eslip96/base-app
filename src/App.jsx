@@ -8,7 +8,7 @@ import {
   Redirect,
 } from "react-router-dom";
 
-import Login from "./components/pages/Login";
+import Login from "./components/pages/login";
 import Second from "./components/pages/Second";
 
 function App() {
